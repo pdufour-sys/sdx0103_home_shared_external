@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22-074 EDC Graphs</title>
+
+    <style>
+      body {
+        background-color: skyblue;
+        font-family: Arial, sans-serif;
+      }
+      .small { font-size: 12px; }
+      .medium { font-size: 20px; }
+      .large { font-size: 30px; }
+      .extra-large { font-size: 40px; }
+      .center-text {
+        text-align: center;
+      }
+    </style>
+
+
+  </head>
+  <body>
+      <div class="center-text">
+
+	<b><span class="large">Graphs of 22-074 / SDX-0103 EDC data </span> </b>
+  <br><span class="medium"> 5/31/2024</span><br>
+      </div> 
+
+      <br>
+      <ul >
+	<li> <span class="larg">Most Common Requests:</span><br>
+	  <ul>
+<li> <a href="Absolute_Neutrophils_240531.html">Absolute_Neutrophils</a>
+<li> <a href="Creatinine_240531.html">Creatinine</a>
+<li> <a href="D-Dimer_240531.html">D-Dimer</a>
+<li> <a href="Glucose_6_Hr_240531.html">Glucose_6_Hr</a>
+<li> <a href="HOMA-IR_240531.html">HOMA-IR</a>
+<li> <a href="Insulin_Level_6_Hours_240531.html">Insulin_Level_6_Hours</a>
+<li> <a href="Platelet_Count_240531.html">Platelet_Count</a>
+	  </ul>
+	<li> <span class="larg">All Others:</span>
+	  <ul>
+<li> <a href="Absolute_Basophils_240531.html">Absolute_Basophils</a>
+<li> <a href="Absolute_Eosinophils_240531.html">Absolute_Eosinophils</a>
+<li> <a href="Absolute_Lymphocytes_240531.html">Absolute_Lymphocytes</a>
+<li> <a href="Absolute_Monocytes_240531.html">Absolute_Monocytes</a>
+<li> <a href="Albumin,_Serum_240531.html">Albumin,_Serum</a>
+<li> <a href="Albumin_240531.html">Albumin</a>
+<li> <a href="Alkaline_Phosphatase,_Serum_240531.html">Alkaline_Phosphatase,_Serum</a>
+<li> <a href="Alkaline_Phosphatase_240531.html">Alkaline_Phosphatase</a>
+<li> <a href="ALT,_Serum_240531.html">ALT,_Serum</a>
+<li> <a href="ALT_240531.html">ALT</a>
+<li> <a href="APTT_240531.html">APTT</a>
+<li> <a href="AST,_Serum_240531.html">AST,_Serum</a>
+<li> <a href="AST_240531.html">AST</a>
+<li> <a href="Basophils_240531.html">Basophils</a>
+<li> <a href="BUN,_Serum_240531.html">BUN,_Serum</a>
+<li> <a href="BUN_240531.html">BUN</a>
+<li> <a href="Calcium,_Serum_240531.html">Calcium,_Serum</a>
+<li> <a href="Calcium_240531.html">Calcium</a>
+<li> <a href="Carbon_dioxide,_Serum_240531.html">Carbon_dioxide,_Serum</a>
+<li> <a href="Carbon_dioxide_240531.html">Carbon_dioxide</a>
+<li> <a href="Chloride,_Serum_240531.html">Chloride,_Serum</a>
+<li> <a href="Chloride_240531.html">Chloride</a>
+<li> <a href="Creatinine,_Plasma_240531.html">Creatinine,_Plasma</a>
+<li> <a href="Eosinophils_240531.html">Eosinophils</a>
+<li> <a href="Glucose,_Serum_240531.html">Glucose,_Serum</a>
+<li> <a href="Glucose_240531.html">Glucose</a>
+<li> <a href="HDL_240531.html">HDL</a>
+<li> <a href="Hematocrit_240531.html">Hematocrit</a>
+<li> <a href="Hemoglobin_240531.html">Hemoglobin</a>
+<li> <a href="INR_240531.html">INR</a>
+<li> <a href="Insulin_Level_0_Hours_240531.html">Insulin_Level_0_Hours</a>
+<li> <a href="LDL_240531.html">LDL</a>
+<li> <a href="Lymphocytes_240531.html">Lymphocytes</a>
+<li> <a href="MCHC_240531.html">MCHC</a>
+<li> <a href="MCH_240531.html">MCH</a>
+<li> <a href="MCV_240531.html">MCV</a>
+<li> <a href="Monocytes_240531.html">Monocytes</a>
+<li> <a href="Neutrophils_240531.html">Neutrophils</a>
+<li> <a href="Potassium,_Serum_240531.html">Potassium,_Serum</a>
+<li> <a href="Potassium_240531.html">Potassium</a>
+<li> <a href="PT_240531.html">PT</a>
+<li> <a href="RBC_240531.html">RBC</a>
+<li> <a href="RDW_240531.html">RDW</a>
+<li> <a href="Sodium,_Serum_240531.html">Sodium,_Serum</a>
+<li> <a href="Sodium_240531.html">Sodium</a>
+<li> <a href="Total_Bilirubin,_Serum_240531.html">Total_Bilirubin,_Serum</a>
+<li> <a href="Total_Bilirubin_240531.html">Total_Bilirubin</a>
+<li> <a href="Total_Protein,_Serum_240531.html">Total_Protein,_Serum</a>
+<li> <a href="Total_Protein_240531.html">Total_Protein</a>
+<li> <a href="Triglycerides_240531.html">Triglycerides</a>
+<li> <a href="WBC_240531.html">WBC</a>
+       </ul>
+       </ul>
+</body>
+</html>
