@@ -13,7 +13,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             box-sizing: border-box;
         }
         .container {
@@ -55,63 +55,80 @@
         .grid-item:hover {
             background: #e0e0e0;
         }
+        @media (max-width: 768px) {
+            .title {
+                font-size: 24px;
+            }
+            .subtitle {
+                font-size: 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            .title {
+                font-size: 20px;
+            }
+            .subtitle {
+                font-size: 14px;
+            }
+            .grid-item a {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="title">SDX-0103 EDC Graphs, data of 6/01/24 1:00</div>
         <div class="grid-container">
-
-<div class="grid-item"> <a href="Albumin_240411.html">Albumin</a></div>
-<div class="grid-item"> <a href="Alkaline_Phosphatase_240411.html">Alkaline Phosphatase</a></div>
-<div class="grid-item"> <a href="ALT_-_Alanine_aminotransferase_240411.html">ALT - Alanine aminotransferase</a></div>
-<div class="grid-item"> <a href="Amylase_240411.html">Amylase</a></div>
-<div class="grid-item"> <a href="aPTT_-_Activated_Partial_Thromboplastin_Time_240411.html">aPTT - Activated Partial Thromboplastin Time</a></div>
-<div class="grid-item"> <a href="AST_-_Aspartate_Aminotransferase_240411.html">AST - Aspartate Aminotransferase</a></div>
-<div class="grid-item"> <a href="Basophils_(absolute)_240411.html">Basophils (absolute)</a></div>
-<div class="grid-item"> <a href="Basophils_(percent)_240411.html">Basophils (percent)</a></div>
-<div class="grid-item"> <a href="Bicarbonate_240411.html">Bicarbonate</a></div>
-<div class="grid-item"> <a href="Bilirubin,_Direct_240411.html">Bilirubin, Direct</a></div>
-<div class="grid-item"> <a href="Bilirubin,_Indirect_240411.html">Bilirubin, Indirect</a></div>
-<div class="grid-item"> <a href="Bilirubin,_Total_240411.html">Bilirubin, Total</a></div>
-<div class="grid-item"> <a href="BUN_-_Blood_Urea_Nitrogen_240411.html">BUN - Blood Urea Nitrogen</a></div>
-<div class="grid-item"> <a href="Calcium,_Total_240411.html">Calcium, Total</a></div>
-<div class="grid-item"> <a href="Calcium_240411.html">Calcium</a></div>
-<div class="grid-item"> <a href="Chloride_240411.html">Chloride</a></div>
-<div class="grid-item"> <a href="Creatine_Kinase_240411.html">Creatine Kinase</a></div>
-<div class="grid-item"> <a href="Creatinine_240411.html">Creatinine</a></div>
-<div class="grid-item"> <a href="Eosinophils_(absolute)_240411.html">Eosinophils (absolute)</a></div>
-<div class="grid-item"> <a href="Eosinophils_(percent)_240411.html">Eosinophils (percent)</a></div>
-<div class="grid-item"> <a href="GGT_-_Gamma_Glutamyl_Transferase_240411.html">GGT - Gamma Glutamyl Transferase</a></div>
-<div class="grid-item"> <a href="Glucose_240411.html">Glucose</a></div>
-<div class="grid-item"> <a href="HDL_Cholesterol_240411.html">HDL Cholesterol</a></div>
-<div class="grid-item"> <a href="Hematocrit_240411.html">Hematocrit</a></div>
-<div class="grid-item"> <a href="Hemoglobin_240411.html">Hemoglobin</a></div>
-<div class="grid-item"> <a href="INR_-_International_Normalized_Ratio_240411.html">INR - International Normalized Ratio</a></div>
-<div class="grid-item"> <a href="LDH_-_Lactate_dehydrogenase_240411.html">LDH - Lactate Dehydrogenase</a></div>
-<div class="grid-item"> <a href="LDL_Cholesterol_240411.html">LDL Cholesterol</a></div>
-<div class="grid-item"> <a href="Lipase_240411.html">Lipase</a></div>
-<div class="grid-item"> <a href="Lymphocytes_(absolute)_240411.html">Lymphocytes (absolute)</a></div>
-<div class="grid-item"> <a href="Lymphocytes_(percent)_240411.html">Lymphocytes (percent)</a></div>
-<div class="grid-item"> <a href="Magnesium_240411.html">Magnesium</a></div>
-<div class="grid-item"> <a href="Monocytes_(absolute)_240411.html">Monocytes (absolute)</a></div>
-<div class="grid-item"> <a href="Monocytes_(percent)_240411.html">Monocytes (percent)</a></div>
-<div class="grid-item"> <a href="Neutrophils_(absolute_count)_240411.html">Neutrophils (absolute_count)</a></div>
-<div class="grid-item"> <a href="Neutrophils_(percent)_240411.html">Neutrophils (percent)</a></div>
-<div class="grid-item"> <a href="Platelet_Count_240411.html">Platelet Count</a></div>
-<div class="grid-item"> <a href="Potassium_240411.html">Potassium</a></div>
-<div class="grid-item"> <a href="RBC_(Erythrocytes)_240411.html">RBC (Erythrocytes)</a></div>
-<div class="grid-item"> <a href="Sodium_240411.html">Sodium</a></div>
-<div class="grid-item"> <a href="Total_Cholesterol_240411.html">Total Cholesterol</a></div>
-<div class="grid-item"> <a href="Total_Protein_240411.html">Total Protein</a></div>
-<div class="grid-item"> <a href="Triglycerides_240411.html">Triglycerides</a></div>
+            <div class="grid-item"><a href="Albumin_240411.html">Albumin</a></div>
+            <div class="grid-item"><a href="Alkaline_Phosphatase_240411.html">Alkaline Phosphatase</a></div>
+            <div class="grid-item"><a href="ALT_-_Alanine_aminotransferase_240411.html">ALT - Alanine aminotransferase</a></div>
+            <div class="grid-item"><a href="Amylase_240411.html">Amylase</a></div>
+            <div class="grid-item"><a href="aPTT_-_Activated_Partial_Thromboplastin_Time_240411.html">aPTT - Activated Partial Thromboplastin Time</a></div>
+            <div class="grid-item"><a href="AST_-_Aspartate_Aminotransferase_240411.html">AST - Aspartate Aminotransferase</a></div>
+            <div class="grid-item"><a href="Basophils_(absolute)_240411.html">Basophils (absolute)</a></div>
+            <div class="grid-item"><a href="Basophils_(percent)_240411.html">Basophils (percent)</a></div>
+            <div class="grid-item"><a href="Bicarbonate_240411.html">Bicarbonate</a></div>
+            <div class="grid-item"><a href="Bilirubin,_Direct_240411.html">Bilirubin, Direct</a></div>
+            <div class="grid-item"><a href="Bilirubin,_Indirect_240411.html">Bilirubin, Indirect</a></div>
+            <div class="grid-item"><a href="Bilirubin,_Total_240411.html">Bilirubin, Total</a></div>
+            <div class="grid-item"><a href="BUN_-_Blood_Urea_Nitrogen_240411.html">BUN - Blood Urea Nitrogen</a></div>
+            <div class="grid-item"><a href="Calcium,_Total_240411.html">Calcium, Total</a></div>
+            <div class="grid-item"><a href="Calcium_240411.html">Calcium</a></div>
+            <div class="grid-item"><a href="Chloride_240411.html">Chloride</a></div>
+            <div class="grid-item"><a href="Creatine_Kinase_240411.html">Creatine Kinase</a></div>
+            <div class="grid-item"><a href="Creatinine_240411.html">Creatinine</a></div>
+            <div class="grid-item"><a href="Eosinophils_(absolute)_240411.html">Eosinophils (absolute)</a></div>
+            <div class="grid-item"><a href="Eosinophils_(percent)_240411.html">Eosinophils (percent)</a></div>
+            <div class="grid-item"><a href="GGT_-_Gamma_Glutamyl_Transferase_240411.html">GGT - Gamma Glutamyl Transferase</a></div>
+            <div class="grid-item"><a href="Glucose_240411.html">Glucose</a></div>
+            <div class="grid-item"><a href="HDL_Cholesterol_240411.html">HDL Cholesterol</a></div>
+            <div class="grid-item"><a href="Hematocrit_240411.html">Hematocrit</a></div>
+            <div class="grid-item"><a href="Hemoglobin_240411.html">Hemoglobin</a></div>
+            <div class="grid-item"><a href="INR_-_International_Normalized_Ratio_240411.html">INR - International Normalized Ratio</a></div>
+            <div class="grid-item"><a href="LDH_-_Lactate_dehydrogenase_240411.html">LDH - Lactate Dehydrogenase</a></div>
+            <div class="grid-item"><a href="LDL_Cholesterol_240411.html">LDL Cholesterol</a></div>
+            <div class="grid-item"><a href="Lipase_240411.html">Lipase</a></div>
+            <div class="grid-item"><a href="Lymphocytes_(absolute)_240411.html">Lymphocytes (absolute)</a></div>
+            <div class="grid-item"><a href="Lymphocytes_(percent)_240411.html">Lymphocytes (percent)</a></div>
+            <div class="grid-item"><a href="Magnesium_240411.html">Magnesium</a></div>
+            <div class="grid-item"><a href="Monocytes_(absolute)_240411.html">Monocytes (absolute)</a></div>
+            <div class="grid-item"><a href="Monocytes_(percent)_240411.html">Monocytes (percent)</a></div>
+            <div class="grid-item"><a href="Neutrophils_(absolute_count)_240411.html">Neutrophils (absolute count)</a></div>
+            <div class="grid-item"><a href="Neutrophils_(percent)_240411.html">Neutrophils (percent)</a></div>
+            <div class="grid-item"><a href="Platelet_Count_240411.html">Platelet Count</a></div>
+            <div class="grid-item"><a href="Potassium_240411.html">Potassium</a></div>
+            <div class="grid-item"><a href="RBC_(Erythrocytes)_240411.html">RBC (Erythrocytes)</a></div>
+            <div class="grid-item"><a href="Sodium_240411.html">Sodium</a></div>
+            <div class="grid-item"><a href="Total_Cholesterol_240411.html">Total Cholesterol</a></div>
+            <div class="grid-item"><a href="Total_Protein_240411.html">Total Protein</a></div>
+            <div class="grid-item"><a href="Triglycerides_240411.html">Triglycerides</a></div>
+            <div class="grid-item"><a href="Urea_240411.html">Urea</a></div>
 <div class="grid-item"> <a href="Urea_240411.html">Urea</a></div>
 <div class="grid-item"> <a href="Uric_acid_240411.html">Uric acid</a></div>
 <div class="grid-item"> <a href="WBC_(Leukocytes)_240411.html">WBC (Leukocytes)</a></div>
-
-
-
         </div>
     </div>
 </body>
 </html>
+
